@@ -1,0 +1,550 @@
+body{
+    background-image: url("bts/jhope/fondojhope.gif");
+    background-repeat: repeat;
+    
+}
+
+header{
+   position: absolute;
+   top: 20px;
+   
+}
+
+.icono{
+    position: absolute;
+    right: 90%;
+    bottom: 86%;
+    width: 90px;
+    height: 90px;
+
+}
+.container{
+    background: linear-gradient(green,rgb(0, 255, 0));
+    display: grid;
+    grid-template-columns: repeat(3, 90px );
+    position: absolute;
+    left: 5px;
+    top: 2px;
+   width: 990px;
+   height: 70px;
+   padding: 10px 290px 2px 40px;
+   
+   
+    /* display: flex; 
+    justify-content: end;
+    gap: 30px;
+    position: absolute;
+    left: 0px;
+    width: 999px;*/
+    /* display: grid;
+    
+  grid-template-columns: repeat(4, 50px);
+  grid-gap: 20px;
+  position: relative; */
+  /* left: 500px; */
+
+}
+
+
+
+/*iconos que te llevan a preguntas*/
+.casa{
+    background: linear-gradient( rgb(4, 201, 4),white);
+    border: 3px solid white;
+    border-radius: 90px;
+}
+
+.telefono{
+    background: linear-gradient( rgb(7, 240, 7),white);
+    border: 3px solid white;
+    border-radius: 90px;
+}
+
+.pregunta{
+    background: linear-gradient( rgb(0, 224, 0),white);
+    border: 3px solid white;
+    border-radius: 90px;
+}
+
+/*acordion de nombres de cada miembro telefono*/
+.dd7 {
+   position: absolute;
+   top: 14px;
+   display: inline-block;
+   width: 0px;
+   margin-left: 10%;
+}
+.dd-btn7 {
+   padding: 15px;
+   text-align: center;
+   background: rgba(255, 192, 203, 0);
+   border: none;
+   width: 50px;
+   height: 50px;
+   color: purple;
+   
+}
+.dd-content7 {
+   position: absolute;
+   box-shadow: 0 18px 36px rgb(255, 224, 251), 0 14px 11px rgb(255, 6, 197);
+   height: 0px;
+   transition: height 1s;
+   overflow: hidden;
+   background:linear-gradient(yellow,orange);
+   background-size: contain;
+   background-repeat: no-repeat;
+   display: grid;
+   grid-template-columns: repeat(1, 0px);
+   border: 2px solid gold;
+}
+.dd7:hover > .dd-content7 {
+   height: 85px;
+   width: 120px;
+   left: 53px;
+   top:0px;
+}
+.dd-content7 > a {
+   display: block;
+   height: 60px;
+   padding: 5px;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+   padding: 10px 1px 0px 25px;
+  
+}
+
+
+.bagtan0{
+   position: absolute;
+   top: 5px;
+    
+   text-align: center;
+}
+
+.bagtan{
+   position: absolute;
+   top: 25px;
+}
+
+
+.bagtan1{
+   position: absolute;
+   top: 45px;
+}
+
+
+
+
+
+
+/* definicion del color favorito de jin */
+.jincolor{
+
+background-color: rgb(194, 255, 192);
+border: 6px solid rgb(0, 117, 29);
+border-radius: 50px;
+box-shadow: 0 18px 36px rgb(255, 255, 255), 0 14px 80px rgb(0, 133, 0);
+width: 500px;
+height: 130px;
+position: absolute;
+text-align: center;
+text-shadow: rgb(0, 255, 115) 0px  7px  4px ;
+top: 130px;
+left: 70px;
+color: rgb(39, 2, 2);
+padding: 10px 20px 0px 20px;
+}
+
+.significado{
+   background-color: rgb(0, 255, 149);
+   border: 6px solid rgb(0, 94, 50);
+   border-radius: 50px;
+   box-shadow: 0 18px 36px rgb(255, 255, 255), 0 14px 80px rgb(255, 255, 255);
+   width: 600px;
+   height: 130px;
+   color: black;
+   position: absolute;
+   top:130px;
+   left: 680px;
+   padding: 10px 20px 10px 20px;
+
+}
+
+/* fotos de productos */
+
+
+
+.todo{
+   position: absolute;
+   margin-top: 200px;
+}
+ 
+
+ .guapo1{
+   border: 8px solid rgb(0, 112, 6);
+   box-shadow: 0 18px 36px rgb(0, 255, 234), 0 14px 80px rgb(255, 255, 255);
+   background: #903C56;
+   transition-property: height;
+   transition-duration: 2s;
+   position: absolute;
+   top: 120px;
+   left: 70px;
+}
+
+.jincontenedor1{
+   width: 250px;
+   height: 300px;
+   position: absolute;
+   top: 120px;
+   left: 70px;
+   transition-property: height;
+   transition-duration: 2s;
+   
+}
+
+.jincontenedor1:hover {
+   background-image: url(bts/jin/jinp1.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: absoliute;
+   left: 340px;
+   width: 300px;
+}
+
+.guapo2{
+   border: 8px solid rgb(0, 112, 6);
+   box-shadow: 0 18px 36px rgb(0, 255, 234), 0 14px 80px rgb(255, 255, 255);
+   transition-property: height;
+   transition-duration: 2s;
+   position: absolute;
+   top: 120px;
+   left: 700px;
+}
+
+.jincontenedor2{
+   width: 250px;
+   height: 300px;
+   position: absolute;
+   top: 120px;
+   left: 700px;
+   transition-property: height;
+   transition-duration: 2s;
+  
+   
+}
+
+.jincontenedor2:hover {
+   background-image: url(bts/jin/jinp2.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: absoliute;
+   left: 970px;
+   width: 300px;
+}
+
+
+.guapo3{
+   box-shadow: 0 18px 36px rgb(0, 255, 234), 0 14px 80px rgb(255, 255, 255);
+   border: 8px solid rgb(0, 112, 6);
+   transition-property: height;
+   transition-duration: 2s;
+   position: absolute;
+   top: 490px;
+   left: 70px;
+}
+
+.jincontenedor3{
+   
+   width: 250px;
+   height: 300px;
+   position: absolute;
+   top: 490px;
+   left: 70px;
+   transition-property: height;
+   transition-duration: 2s;
+  
+}
+
+.jincontenedor3:hover {
+   background-image: url(bts/jin/jinp3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: absoliute;
+   left: 340px;
+   width: 300px;
+}
+
+
+.guapo4{
+   box-shadow: 0 18px 36px rgb(0, 255, 234), 0 14px 80px rgb(255, 255, 255);
+   border: 8px solid rgb(0, 112, 6);
+   transition-property: height;
+   transition-duration: 2s;
+   position: absolute;
+   top: 490px;
+   left: 700px;
+}
+
+.jincontenedor4{
+   width: 250px;
+   height: 300px;
+   position: absolute;
+   top: 490px;
+   left: 700px;
+   transition-property: height;
+   transition-duration: 2s;
+   
+   
+}
+
+.jincontenedor4:hover {
+   background-image: url(bts/jin/jinp4.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: absoliute;
+   left: 970px;
+   width: 300px;
+}
+
+.guapo5{
+   border: 8px solid rgb(0, 112, 6);
+   box-shadow: 0 18px 36px rgb(0, 255, 234), 0 14px 80px rgb(255, 255, 255);
+   transition-property: height;
+   transition-duration: 2s;
+   position: absolute;
+   top: 880px;
+   left: 70px;
+}
+
+.jincontenedor5{
+   width: 250px;
+   height: 300px;
+   position: absolute;
+   top: 880px;
+   left: 70px;
+   transition-property: height;
+   transition-duration: 2s;
+  
+}
+
+.jincontenedor5:hover {
+   background-image: url(bts/jin/jinp5.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: absoliute;
+   left: 340px;
+   width: 300px;
+}
+
+.guapo6{
+   border: 8px solid rgb(0, 112, 6);
+   box-shadow: 0 18px 36px rgb(0, 255, 234), 0 14px 80px rgb(255, 255, 255);
+   transition-property: height;
+   transition-duration: 2s;
+   position: absolute;
+   top: 880px;
+   left: 700px;
+}
+
+.jincontenedor6{
+   width: 250px;
+   height: 300px;
+   position: absolute;
+   top: 880px;
+   left: 700px;
+   transition-property: height;
+   transition-duration: 2s;
+   
+}
+
+.jincontenedor6:hover {
+   background-image: url(bts/jin/jinp6.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: absoliute;
+   left: 970px;
+   width: 300px;
+}
+
+/* precio */
+
+.precio1{
+   color: aliceblue;
+   position: absolute;
+   width: 30px;
+   top: 170px;
+   left: 350px;
+  
+}
+
+.span1{
+   border: 3px solid green;
+   color: aliceblue;
+   background-color: black;
+   position: absolute;
+   top: 380px;
+   left: 420px;
+}
+
+.precio2{
+   color: aliceblue;
+   position: absolute;
+   width: 30px;
+   top: 170px;
+   left: 990px;
+  
+}
+
+.span2{
+   border: 3px solid green;
+   color: aliceblue;
+   background-color: black;
+   position: absolute;
+   top: 380px;
+   left: 970px;
+}
+
+.precio3{
+   color: aliceblue;
+   position: absolute;
+   width: 30px;
+   top: 490px;
+   left: 990px;
+  
+}
+
+.span3{
+   border: 3px solid green;
+   color: aliceblue;
+   background-color: black;
+   position: absolute;
+   top: 760px;
+   left: 980px;
+}
+
+.precio4{
+   color: aliceblue;
+   position: absolute;
+   width: 30px;
+   top: 500px;
+   left: 350px;
+  
+}
+
+.span4{
+   border: 3px solid green;
+   color: aliceblue;
+   background-color: black;
+   position: absolute;
+   top: 750px;
+   left: 360px;
+
+}
+.precio5{
+   color: aliceblue;
+   position: absolute;
+   width: 30px;
+   top: 920px;
+   left: 370px;
+  
+}
+
+.span5{
+   border: 3px solid green;
+   color: aliceblue;
+   background-color: black;
+   position: absolute;
+   top: 900px;
+   left: 400px;
+}
+
+
+.precio6{
+   color: white;
+   position: absolute;
+   width: 30px;
+   top: 920px;
+   left: 970px;
+  
+}
+
+.span6{
+   border: 3px solid green;
+   color: aliceblue;
+   background-color: black;
+   position: absolute;
+   top: 880px;
+   left: 999px;
+}
+
+/* footer*/
+
+footer {
+   color: #fff;
+   background: linear-gradient(green,rgba(255, 254, 254, 0.603));
+   position: absolute; /* required to position the copyright at the bottom */
+   top: 999px;
+   height: 200px;
+   width: 99%;
+   margin-top: 490px;
+}
+.footer-copyright {
+ width: 100%;
+   height: 20px;
+   background: #111;
+   /* positions the copyright at the bottom of the footer */
+   padding: 10px;
+   position: absolute;
+   bottom: 0px;
+   left: px;
+   top: 100%;
+   text-align: center;
+}
+
+
+/* footer*/
+.footer-body {
+   margin-bottom: 00px;
+   top: 99%;
+}
+
+ul{
+   position: absolute;
+   left: 960px;
+   bottom: 80px;
+   color:white;
+}
+
+a{
+   color: white;
+}
+
+.your{
+   position: absolute;
+   left: 79px;
+   bottom: 160px;
+}
+
+ .texto{
+   width: 500px;
+   margin: 37px;
+   color: rgb(255, 217, 156);
+   padding: 2px;
+   position: absolute;
+   top: 50px;
+}
+
+.logo{
+   position: absolute;
+   left: 47%;
+   width: 200px;
+   top:4%;
+}
+
+.github{
+  border-radius: 999px 999px ;
+  width: 25px;
+  position: relative;
+  bottom: 2px;
+}

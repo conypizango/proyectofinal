@@ -1,0 +1,507 @@
+body{
+   background-image: url("img/cuadrados.gif");
+   background-repeat: repeat;
+}
+
+.icono{
+   position: absolute;
+   right: 90%;
+   bottom: 86%;
+   width: 90px;
+   height: 90px;
+
+}
+.container{
+   background-color: rgba(255, 192, 203, 0.356);
+   display: flex;
+   justify-content: end;
+   gap: 30px;
+   /* display: grid;
+   
+ grid-template-columns: repeat(4, 50px);
+ grid-gap: 20px;
+ position: relative; */
+ /* left: 500px; */
+
+}
+
+
+/*iconos que te llevan a preguntas*/
+.casa{
+   background: linear-gradient(rgb(247, 85, 112),rgb(253, 146, 164));
+   border: 3px solid pink;
+   border-radius: 90px;
+}
+
+.telefono{
+   background: linear-gradient(rgb(247, 85, 112),rgb(253, 146, 164));
+   border: 3px solid pink;
+   border-radius: 90px;
+}
+
+
+
+
+
+.pregunta{
+   background: linear-gradient(rgb(247, 85, 112),rgb(253, 146, 164));
+   border: 3px solid pink;
+   border-radius: 90px;
+}
+
+
+
+
+/*instrucciones*/
+.parrafo{
+   position: absolute;
+   top: 105px;
+   width:  225px;
+   height: 38px;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   background: linear-gradient(purple,violet);
+}
+
+/*acordion de nombres de cada miembro jin*/
+.dd {
+   position: relative;
+   top: 125px;
+   left: 18px;
+   display: inline-block;
+}
+.dd-btn {
+   padding: 15px;
+   text-align: center;
+   background: pink;
+   border: none;
+   width: 190px;
+   color: purple;
+}
+.dd-content {
+   position: absolute;
+   width: 100%;
+   box-shadow: 0 18px 36px rgb(255, 224, 251), 0 14px 11px rgb(255, 6, 197);
+   height: 0px;
+   transition: height 1s;
+   overflow: hidden;
+   background-color: #f8f9f9;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.dd:hover > .dd-content {
+   height: 55px;
+}
+.dd-content > a {
+   display: block;
+   height: 60px;
+   padding: 15px;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+}
+
+
+
+/*acordion de nombres de cada miembro suga*/
+.dd1 {
+   position: absolute;
+   top: 315px;
+   left: 25px;
+   display: inline-block;
+}
+.dd-btn1 {
+   padding: 15px;
+   text-align: center;
+   background: pink;
+   border: none;
+   width: 190px;
+   color: purple;
+}
+.dd-content1 {
+   position: absolute;
+   width: 100%;
+   box-shadow: 0 18px 36px rgb(255, 224, 251), 0 14px 11px rgb(255, 6, 197);
+   height: 0px;
+   transition: height 1s;
+   overflow: hidden;
+   background-color: #f8f9f9;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.dd1:hover > .dd-content1 {
+   height: 55px;
+}
+.dd-content1 > a {
+   display: block;
+   height: 60px;
+   padding: 15px;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+}
+
+
+/*acordion de nombres de cada miembro suga*/
+.dd2 {
+   position: absolute;
+   top: 445px;
+   left: 25px;
+   display: inline-block;
+}
+.dd-btn2 {
+   padding: 15px;
+   text-align: center;
+   background: pink;
+   border: none;
+   width: 190px;
+   color: purple;
+}
+.dd-content2 {
+   position: absolute;
+   width: 100%;
+   box-shadow: 0 18px 36px rgb(255, 224, 251), 0 14px 11px rgb(255, 6, 197);
+   height: 0px;
+   transition: height 1s;
+   overflow: hidden;
+   background-color: #f8f9f9;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.dd2:hover > .dd-content2 {
+   height: 55px;
+}
+.dd-content2 > a {
+   display: block;
+   height: 60px;
+   padding: 15px;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+}
+
+/*acordion de nombres de cada miembro j-hope*/
+.dd3 {
+   position: absolute;
+   top: 575px;
+   left: 25px;
+   display: inline-block;
+}
+.dd-btn3 {
+   padding: 15px;
+   text-align: center;
+   background: pink;
+   border: none;
+   width: 190px;
+   color: purple;
+}
+.dd-content3 {
+   position: absolute;
+   width: 100%;
+   box-shadow: 0 18px 36px rgb(255, 224, 251), 0 14px 11px rgb(255, 6, 197);
+   height: 0px;
+   transition: height 1s;
+   overflow: hidden;
+   background-color: #f8f9f9;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.dd3:hover > .dd-content3 {
+   height: 55px;
+}
+.dd-content3 > a {
+   display: block;
+   height: 60px;
+   padding: 15px;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+}
+
+/*acordion de nombres de cada miembro j-hope*/
+.dd4 {
+   position: absolute;
+   top: 695px;
+   left: 25px;
+   display: inline-block;
+}
+.dd-btn4 {
+   padding: 15px;
+   text-align: center;
+   background: pink;
+   border: none;
+   width: 190px;
+   color: purple;
+}
+.dd-content4 {
+   position: absolute;
+   width: 100%;
+   box-shadow: 0 18px 36px rgb(255, 224, 251), 0 14px 11px rgb(255, 6, 197);
+   height: 0px;
+   transition: height 1s;
+   overflow: hidden;
+   background-color: #f8f9f9;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.dd4:hover > .dd-content4 {
+   height: 55px;
+}
+.dd-content4 > a {
+   display: block;
+   height: 60px;
+   padding: 15px;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+}
+
+/*acordion de nombres de cada miembro j-hope*/
+.dd5 {
+   position: absolute;
+   top: 818px;
+   left: 25px;
+   display: inline-block;
+}
+.dd-btn5 {
+   padding: 15px;
+   text-align: center;
+   background: pink;
+   border: none;
+   width: 190px;
+   color: purple;
+}
+.dd-content5 {
+   position: absolute;
+   width: 100%;
+   box-shadow: 0 18px 36px rgb(255, 224, 251), 0 14px 11px rgb(255, 6, 197);
+   height: 0px;
+   transition: height 1s;
+   overflow: hidden;
+   background-color: #f8f9f9;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.dd5:hover > .dd-content5 {
+   height: 55px;
+}
+.dd-content5 > a {
+   display: block;
+   height: 60px;
+   padding: 15px;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+}
+
+/*acordion de nombres de cada miembro j-hope*/
+.dd6 {
+   position: absolute;
+   top: 948px;
+   left: 25px;
+   display: inline-block;
+}
+.dd-btn6 {
+   padding: 15px;
+   text-align: center;
+   background: pink;
+   border: none;
+   width: 190px;
+   color: purple;
+}
+.dd-content6 {
+   position: absolute;
+   width: 100%;
+   box-shadow: 0 18px 36px rgb(255, 224, 251), 0 14px 11px rgb(255, 6, 197);
+   height: 0px;
+   transition: height 1s;
+   overflow: hidden;
+   background-color: #f8f9f9;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.dd6:hover > .dd-content6 {
+   height: 55px;
+}
+.dd-content6 > a {
+   display: block;
+   height: 60px;
+   padding: 15px;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+}
+
+
+/*acordion de nombres de cada miembro telefono*/
+.dd7 {
+   position: absolute;
+   top: 10px;
+   left: 995px;
+   display: inline-block;
+   margin-left: 210px;
+   width: 60px;
+}
+.dd-btn7 {
+   padding: 15px;
+   text-align: center;
+   background: rgba(255, 192, 203, 0);
+   border: none;
+   width: 50px;
+   height: 50px;
+   color: purple;
+}
+.dd-content7 {
+   position: absolute;
+   box-shadow: 0 18px 36px rgb(255, 224, 251), 0 14px 11px rgb(255, 6, 197);
+   height: 0px;
+   transition: height 1s;
+   overflow: hidden;
+   background:linear-gradient(yellow,orange);
+   background-size: contain;
+   background-repeat: no-repeat;
+   display: grid;
+   grid-template-columns: repeat(1, 0px);
+   border: 2px solid gold;
+}
+.dd7:hover > .dd-content7 {
+   height: 85px;
+   width: 120px;
+   
+}
+.dd-content7 > a {
+   display: block;
+   height: 60px;
+   padding: 5px;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+   padding: 10px 1px 0px 25px;
+  
+}
+
+
+.bagtan0{
+   position: absolute;
+   top: 5px;
+    
+   text-align: center;
+}
+
+.bagtan{
+   position: absolute;
+   top: 25px;
+}
+
+
+.bagtan1{
+   position: absolute;
+   top: 45px;
+}
+
+
+
+
+
+
+/*centro*/
+
+.btspresentacion{
+   display: grid;
+   grid-template-columns: repeat(3, 360px );
+   position: absolute;
+   left: 245px;
+   top: 100px;
+}
+.purple{
+   width: 340px;
+   height: 225px;
+   position: relative;
+   top: 49px;
+}
+
+.purple2{
+   width: 340px;
+   height: 255px;
+   position: relative;
+   top: 109px;
+}
+
+.purple3{
+   width: 340px;
+   height: 255px;
+   position: relative;
+   top: 155px;
+}
+
+
+ /* footer*/
+
+ footer {
+    color: #fff;
+    background: linear-gradient(rgb(253, 0, 127),rgba(0, 0, 0, 0.516));
+    position: absolute; /* required to position the copyright at the bottom */
+    top: 100%;
+    height: 200px;
+    width: 99%;
+    margin-top: 490px;
+ }
+ .footer-copyright {
+  width: 100%;
+    height: 20px;
+    background: #111;
+    /* positions the copyright at the bottom of the footer */
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: px;
+    top: 100%;
+    text-align: center;
+ }
+
+
+/* footer*/
+ .footer-body {
+    margin-bottom: 0px;
+    top: 99%;
+ }
+
+ ul{
+    position: absolute;
+    left: 960px;
+    bottom: 80px;
+    color:white;
+ }
+
+ a{
+    color: white;
+}
+
+ .your{
+    position: absolute;
+    left: 79px;
+    bottom: 160px;
+ }
+
+  .texto{
+    width: 500px;
+    margin: 37px;
+    color: rgb(255, 217, 156);
+    padding: 2px;
+    
+ }
+
+ .logo{
+    position: absolute;
+    left: 47%;
+    width: 200px;
+    top:4%;
+ }
+
+ .github{
+   border-radius: 999px 999px ;
+   width: 25px;
+   position: relative;
+   bottom: 2px;
+ }
+ 

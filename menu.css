@@ -1,0 +1,371 @@
+
+
+body{
+    background-image: url("img/cuadrados.gif");
+    background-repeat: repeat;
+}
+
+.icono{
+    position: absolute;
+    right: 90%;
+    bottom: 86%;
+    width: 90px;
+    height: 90px;
+
+}
+.container{
+    background-color: rgba(255, 192, 203, 0.356);
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    /* display: grid;
+    
+  grid-template-columns: repeat(4, 50px);
+  grid-gap: 20px;
+  position: relative; */
+  /* left: 500px; */
+
+}
+
+img{
+    width: 50px;
+}
+
+/*iconos que te llevan a preguntas*/
+.casa{
+    background: linear-gradient(rgb(247, 85, 112),rgb(253, 146, 164));
+    border: 3px solid pink;
+    border-radius: 90px;
+}
+
+.telefono{
+    background: linear-gradient(rgb(247, 85, 112),rgb(253, 146, 164));
+    border: 3px solid pink;
+    border-radius: 90px;
+}
+
+
+
+
+
+.pregunta{
+    background: linear-gradient(rgb(247, 85, 112),rgb(253, 146, 164));
+    border: 3px solid pink;
+    border-radius: 90px;
+}
+
+/* ejemplo */
+
+
+/*acordion*/
+
+ .dd {
+    position: absolute;
+    top:165px;
+    display: inline-block;
+ }
+ .dd-btn {
+    padding: 15px;
+    text-align: center;
+    background: purple;
+    border: none;
+    width: 300px;
+    color: #f8f9f9;
+    border: 2px solid wheat;
+ }
+ .dd-content {
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 18px 36px rgb(206, 101, 255), 0 14px 11px purple;
+    height: 0px;
+    transition: height 1s;
+    overflow: hidden;
+    background-image: url("img/bts\ frontal.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+ .dd:hover > .dd-content {
+    height: 132px;
+ }
+ .dd-content > a {
+    display: block;
+    height: 60px;
+    padding: 15px;
+    text-decoration: none;
+    color: wheat;
+ }
+
+ /* ACORDION1*/
+ .dd1{
+   position: absolute;
+   top: 165px;
+   left: 999px;
+   display: inline-block;
+}
+.dd1-btn1{
+   padding: 15px;
+   text-align: center;
+   background: black;
+   border: 2px solid pink;
+   width: 300px;
+   color: pink;
+}
+.dd1-content1 {
+   position: absolute;
+   width: 100%;
+   box-shadow: 0 18px 36px rgb(206, 101, 255), 0 14px 11px purple;
+   height: 0px;
+   transition: height 1s;
+   overflow: hidden;
+   background-image: url("img/bts\ frontal.gif");
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.dd1:hover > .dd1-content1 {
+   height: 132px;
+}
+.dd1-content1 > a {
+   display: block;
+   height: 60px;
+   padding: 15px;
+   text-decoration: none;
+   color: wheat;
+}
+
+/* ACORDION2 */
+.dd2{
+   position: absolute;
+   top: 375px;
+   left: 999px;
+   display: inline-block;
+}
+.dd-btn2{
+   padding: 15px;
+   text-align: center;
+   background: #fe019a;
+   border: none;
+   width: 300px;
+   color: black;
+   border: 2px solid pink;
+}
+.dd-content2 {
+   position: absolute;
+   width: 100%;
+   box-shadow: 0 18px 36px rgb(206, 101, 255), 0 14px 11px purple;
+   height: 0px;
+   transition: height 1s;
+   overflow: hidden;
+   background-image: url("img/bts\ frontal.gif");
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.dd2:hover > .dd-content2 {
+   height: 132px;
+}
+.dd-content2 > a {
+   display: block;
+   height: 60px;
+   padding: 15px;
+   text-decoration: none;
+   color: wheat;
+}
+
+/* ACORDION3 */
+.dd3{
+   position: absolute;
+   top: 375px;
+   left: 9px;
+   display: inline-block;
+}
+.dd3-btn3{
+   padding: 15px;
+   text-align: center;
+   background:linear-gradient(#e90076, #FBCEB1);
+   width: 300px;
+   color: white;
+   border: 2px solid pink;
+}
+.dd3-content3 {
+   position: absolute;
+   width: 100%;
+   box-shadow: 0 18px 36px rgb(206, 101, 255), 0 14px 11px purple;
+   height: 0px;
+   transition: height 1s;
+   overflow: hidden;
+   background-image: url("img/bts\ frontal.gif");
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.dd3:hover > .dd3-content3 {
+   height: 132px;
+}
+.dd3-content > a {
+   display: block;
+   height: 60px;
+   padding: 15px;
+   text-decoration: none;
+   color: wheat;
+}
+
+
+
+
+ /*imagen del centro*/
+.centro{
+  position: absolute;
+  top: 45px;
+  
+}
+ .uno{
+    width: 300px;
+    height: 200px;
+   position: relative;
+   left: 345px;
+   top:30px;
+ }
+
+ .dos{
+    width: 300px;
+    height: 240px;
+   position: relative;
+   right: 263px;
+   top:290px;
+ }
+
+/*acordion de nombres de cada miembro telefono*/
+.dd7 {
+   position: absolute;
+   top: 10px;
+   left: 995px;
+   display: inline-block;
+   margin-left: 210px;
+   width: 60px;
+}
+.dd-btn7 {
+   padding: 15px;
+   text-align: center;
+   background: rgba(255, 192, 203, 0);
+   border: none;
+   width: 50px;
+   height: 50px;
+   color: purple;
+}
+.dd-content7 {
+   position: absolute;
+   box-shadow: 0 18px 36px rgb(255, 224, 251), 0 14px 11px rgb(255, 6, 197);
+   height: 0px;
+   transition: height 1s;
+   overflow: hidden;
+   background:linear-gradient(yellow,orange);
+   background-size: contain;
+   background-repeat: no-repeat;
+   display: grid;
+   grid-template-columns: repeat(1, 0px);
+   border: 2px solid gold;
+}
+.dd7:hover > .dd-content7 {
+   height: 85px;
+   width: 120px;
+   
+}
+.dd-content7 > a {
+   display: block;
+   height: 60px;
+   padding: 5px;
+   text-decoration: none;
+   color: black;
+   text-align: center;
+   padding: 10px 1px 0px 25px;
+  
+}
+
+
+.bagtan0{
+   position: absolute;
+   top: 5px;
+    
+   text-align: center;
+}
+
+.bagtan{
+   position: absolute;
+   top: 25px;
+}
+
+
+.bagtan1{
+   position: absolute;
+   top: 45px;
+}
+
+
+ /* footer*/
+
+footer {
+   color: #fff;
+   background: linear-gradient(rgb(253, 0, 127),rgba(0, 0, 0, 0.516));
+   position: absolute; /* required to position the copyright at the bottom */
+   height: 200px;
+   width: 99%;
+   margin-top: 520px;
+}
+.footer-copyright {
+ width: 100%;
+   height: 20px;
+   background: #111;
+   /* positions the copyright at the bottom of the footer */
+   padding: 10px;
+   position: absolute;
+   bottom: 0px;
+   left: px;
+   top: 100%;
+   text-align: center;
+}
+
+
+/* footer*/
+.footer-body {
+   margin-bottom: 0px;
+   top: 99%;
+}
+
+ul{
+   position: absolute;
+   left: 960px;
+   bottom: 80px;
+   color:white;
+}
+
+a{
+   color: white;
+}
+
+.your{
+   position: absolute;
+   left: 79px;
+   bottom: 160px;
+}
+
+ .texto{
+   width: 400px;
+   margin: 37px;
+   color: rgb(255, 217, 156);
+   padding: 2px;
+}
+
+.logo{
+   position: absolute;
+   left: 47%;
+   width: 200px;
+   top:4%;
+}
+
+.github{
+  border-radius: 999px 999px ;
+  width: 25px;
+  position: relative;
+  bottom: 2px;
+}
+ 
+ 
+ 
